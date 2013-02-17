@@ -1,0 +1,82 @@
+{
+  "name":        "hubot",
+  "version":     "2.4.6",
+  "author":      "hubot",
+  "keywords":    ["github","hubot","campfire","bot"],
+  "description": "A simple helpful Robot for your Company",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url":  "https://github.com/github/hubot.git"
+  },
+
+  "dependencies": {
+    "hubot": "*",
+    "hubot-irc": ">= 0.0.6",
+    "hubot-scripts": "*",
+    "hubot-xmpp": "*",
+    "optparse": "1.0.3",
+    "redis": "*",
+    "xml2js": "*",
+    "chess": "*",
+    "prowler": "*",
+    "handlebars": "*",
+    "mailchimp": "*",
+    "textspark": "*",
+    "pg": "*",
+    "xml2json": "*",
+    "cheerio": "*",
+    "gitio": "*",
+    "bang": "*",
+    "validator": "*",
+    "sandbox": "*",
+    "sprintf": "*",
+    "shellwords": "*",
+    "hubucket": "*",
+    "mailer": "*",
+    "scraper":"*",
+    "clark":"*",
+    "aws2js": "*",
+    "pypi": "*",
+    "moment": "*",
+    "yelp": "*",
+    "cleverbot-node": "*",
+    "nodepie": "*",
+    "jsdom": "*",
+    "underscore": "*",
+    "wolfram": "*",
+    "cradle": "*",
+    "date-utils": "*",
+    "githubot": "*",
+    "scribe-node": "*",
+    "underscore.string": "*",
+    "soupselect": "*",
+    "htmlparser": "*",
+    "log": "*",
+    "scoped-http-client": "*",
+    "hubot-kandan": "*",
+    "hubot-unfuddle": "*",
+    "tumblrbot": "*",
+    "hubot-robowhois": "*",
+    "hubot-scripts": "*",
+    "hubot-script-pkg": "*",
+    "hubot-cron": "*"
+
+
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": "1.1.x"
+  },
+
+  "main": "./index",
+
+  "bin": {
+    "hubot": "./bin/hubot"
+  }
+}
